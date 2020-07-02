@@ -1,0 +1,71 @@
+Curso de Logica y Ciclos
+
+Ciclos for
+
+Los Ciclos for son una herramienta que trae el lenguaje de programación para repetir unas lineas de codigo una y otra vez 
+hasta cumplir una condición dada desde el inicio del ciclo que creamos.  Para elaborar un ciclo for debemos iniciar escribiendo
+la palabra for y abrimos parentesis, dentro de parentesi ponemos el contador que va a manajar la cantidad de repeticiones
+o ciclos que se van a repetir, lo separamos por punto y coma (;), luego ponemos la condición es decir la eventual regla 
+que debe cumplir para cerrar o finalizar el ciclo nuevamente separamos por punto y coma (;), y ponemos el incrementador 
+del contador previamente puesto en la primera parte, terminamos cerrando el parentesis y abrimos llaves {} y dentro de estas
+llaves se ingresa el codigo a repetir.
+
+
+Ejemplo:
+
+for (i = 0; i < 10; i++){
+
+	console.log(i);
+}
+
+
+Logica Basica
+
+Operador de Logica &&
+
+Este operador me ayuda a unir 2 o mas comprobaciones dentro de una misma condicional, es decir si deso comparar con una sola 
+condicional varias validaciones estas comprobaciónes para que sean verdaderas deben las 2 o mas condicionales cumplirse, podemos tomar como ejemplo 
+que un numero es esta entre 50 y 20 puedo usar este operador logico.
+
+Ejemplo
+
+si ( a < 50 && a > 20)
+
+	es un numero entre 50 y 20
+
+si no
+	es un numero que no esta entre 50 y 20
+
+
+Operador de Logica ||
+
+Con este operador de logica podemos hacer una validación dentro de una misma condicional, para que dicha condicional sea verdadera
+uno de sus comparaciones debe ser verdadera es decir si ejemplo tengo 2 comprobaciones pero solo se cumple 1 de las 2 esta condicional
+daria como respuesta que es verdadera, la unica forma que no sea verdadera es que no se cumpla ninguna de las validaciones.
+
+Ejemplo
+
+si (a > 1 || a < 100)
+
+es un numero entre 1 a 100
+
+sino
+
+es un numero mayor a 100.
+
+
+Opedador Logico !
+
+COn este operador logico validamos que una comprobación de condicional cuyos valores deseamos comprobar sean diferentes a un valor es decir si quiero ver que 2 numeros a y b 
+sean diferente por medio de este operador logico lo podemos hacer
+
+ejemplo:
+
+si (a != b)
+
+	el numero es diferente a B
+
+sino
+
+	el numero a y b son iguales.
+
